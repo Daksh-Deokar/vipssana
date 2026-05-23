@@ -249,3 +249,22 @@
     font-size: 2rem;
   }
 }
+.ctaSection {
+  background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+  position: relative; /* add this */
+}
+
+.impactStatement {
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
+}
+
+.brandName {
+  font-size: 14px;
+  margin: 0;
+  text-align: left;
+}

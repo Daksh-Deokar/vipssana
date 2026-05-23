@@ -91,7 +91,15 @@ export default function Home() {
         <Link href="/tours" className={styles.ctaButtonLarge}>
           View All Tours
         </Link>
+        <div className={styles.impactStatement}>
+            <p className={styles.brandName}>
+           Samword Technology Pvt. Ltd. 
+          </p>
+           <br />
+    
+          </div>
       </section>
+
     </main>
   );
 }
