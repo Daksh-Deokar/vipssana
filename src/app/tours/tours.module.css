@@ -1,0 +1,243 @@
+.container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.hero {
+  background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+  color: white;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.heroContent h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.heroContent p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.section {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.programDescription {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.toursGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.tourCard {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.tourCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.tourHeader h3 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin: 0;
+}
+
+.location {
+  color: #7f8c8d;
+  margin: 0.5rem 0 0 0;
+  font-size: 0.95rem;
+}
+
+.description {
+  color: #555;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.highlights {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.highlightsTitle {
+  margin: 0 0 0.5rem 0;
+  font-weight: bold;
+  color: #2c3e50;
+  font-size: 0.9rem;
+}
+
+.highlights ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.highlights li {
+  padding: 0.25rem 0;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.highlights li:before {
+  content: "✓ ";
+  color: #27ae60;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.tourFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+.duration {
+  color: #7f8c8d;
+  font-size: 0.95rem;
+}
+
+.bookBtn {
+  background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  align-self: flex-start;
+}
+
+.bookBtn:hover {
+  background: linear-gradient(135deg, #2980b9 0%, #1f5f8f 100%);
+}
+
+.programsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.programCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.programCard:hover {
+  transform: translateY(-5px);
+}
+
+.programIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.programCard h3 {
+  font-size: 1.3rem;
+  color: #2c3e50;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.programCard p {
+  color: #7f8c8d;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.impact {
+  background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+  color: white;
+  padding: 4rem 2rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.impact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.impactStats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.stat {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+}
+
+.stat h3 {
+  font-size: 2.5rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.stat p {
+  font-size: 1.1rem;
+  margin: 0;
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .heroContent h1 {
+    font-size: 2rem;
+  }
+
+  .sectionTitle {
+    font-size: 1.8rem;
+  }
+
+  .toursGrid,
+  .programsGrid,
+  .impactStats {
+    grid-template-columns: 1fr;
+  }
+}
