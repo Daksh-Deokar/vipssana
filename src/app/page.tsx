@@ -26,15 +26,27 @@ export default function Home() {
           <div className={styles.aboutText}>
             <h2>About Our Mission</h2>
             <p>
-              We believe that travel can be a powerful tool for cultural exchange and
-              social impact. Our organization brings together passionate individuals who
-              want to explore India's incredible historical monuments while contributing
-              to the well-being of local communities.
+             Vipassa Bahuuddeshiy Sevabhavi Sanstha
+             are non-profit organizations dedicated to achieving gender equality and 
+             elevating women's social, economic, Educational and political status. They typically focus on providing skill development, 
+             financial literacy, healthcare, and livelihood support to marginalized 
+             women to help them achieve independence.
+            </p> 
+            <p>
+              Key Areas of FocusEconomic Independence:
+              Providing vocational training, microloans, and business development to help women earn a 
+              sustainable income and achieve financial autonomy. 
+              Education & Skill Development: Teaching practical skills like digital literacy, self-defense, and trades 
+              (e.g., professional driving, tailoring) to break gender stereotypes and open up new career paths. 
+              Healthcare & Safety: Offering health clinics, nutritional support, legal aid, and counseling to victims of abuse. 
+              Community Building: Forming Self-Help Groups (SHGs) and women's cooperatives to foster leadership and 
+              provide a support network
             </p>
             <p>
-              Every tour is carefully designed to provide authentic experiences and ensure
-              that proceeds directly benefit our social welfare programs in education,
-              healthcare, women empowerment, and environmental conservation.
+              We want to provide free computer education to poor children and women.
+              I also want to provide free training to do various businesses.
+              So that they can get computer jobs as well as they can 
+              start their own business.
             </p>
           </div>
           <div className={styles.aboutStats}>
